@@ -169,7 +169,7 @@ class _HomePageState extends State<HomePage> {
                 color: Color(0xFFF87265),
               ),
               Text(
-                'Mondolibug, Sylhet',
+                'Dhaka, Bangladesh',
                 style: GoogleFonts.robotoSlab(
                   color: Colors.black,
                   fontSize: 14,
@@ -212,7 +212,6 @@ class _HomePageState extends State<HomePage> {
         ///Category chip section
         Container(
           height: 60,
-          padding: const EdgeInsets.all(0.0),
           margin: const EdgeInsets.only(left: 8, right: 8),
           child: ListView(
             scrollDirection: Axis.horizontal,
@@ -274,6 +273,8 @@ class _HomePageState extends State<HomePage> {
         ///New Arrivals section
         _sectionTitle(title: "New Arrivals", subTitle: "See all"),
         ArrivalShoeCart(shoesModel: shoesList[1]),
+        const SizedBox(height: 8,),
+        ArrivalShoeCart(shoesModel: shoesList[0]),
       ],
     );
   }
