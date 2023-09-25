@@ -91,7 +91,7 @@ class _ProductDetailsPageState extends State<ProductDetailsPage> {
             margin: const EdgeInsets.only(right: 30),
             child: ElevatedButton(
                 style: ElevatedButton.styleFrom(
-                  backgroundColor: Colors.blue+,
+                  backgroundColor: Colors.blue,
                     shape: RoundedRectangleBorder(
                       borderRadius: BorderRadius.circular(20),
                     ),
